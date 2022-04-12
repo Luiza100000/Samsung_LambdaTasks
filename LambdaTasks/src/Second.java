@@ -14,7 +14,7 @@ public class Second {
 
 
         Count count = (a, b, c) ->{
-            double d = 0.0;
+            double d;
                 d = b*b - 4*a*c;
                 if (d<0){
                     System.out.println("Дискреминант меньше нуля");
