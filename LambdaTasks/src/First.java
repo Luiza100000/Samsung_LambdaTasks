@@ -11,11 +11,9 @@ public class First {
         int n = in.nextInt();
 
         Numbers numbers = (a) -> {
-            boolean c = false;
             if (a%13 == 0){
-                c = true;
+                return true;
             }
-            return c;
         };
 
         System.out.println(numbers.bool(n));
